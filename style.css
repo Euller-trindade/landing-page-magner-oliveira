@@ -50,7 +50,7 @@ body {
 .img-magner img {
   position: relative;
   top: 80px;
-  height: 380px;
+  height: 100%;
 }
 .agendar {
   display: flex;
@@ -216,7 +216,7 @@ body {
     font-size: 2.5rem;
   }
   .img-magner img {
-    height: 650px;
+    height: 550px;
   }
   .agendar {
     width: 500px;
