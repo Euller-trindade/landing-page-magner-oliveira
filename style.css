@@ -8,7 +8,7 @@ body {
 }
 .primeira-section {
   overflow: hidden;
-  height: 70vh;
+  height: 40vh;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -44,10 +44,12 @@ body {
   color: #fd9800;
 }
 .img-magner {
-  position: relative;
-  top: 80px;
+  display: flex;
+  align-items: end;
 }
 .img-magner img {
+  position: relative;
+  top: 80px;
   height: 380px;
 }
 .agendar {
@@ -176,7 +178,9 @@ body {
   .primeira-section {
     justify-content: space-around;
   }
-
+  .img-magner img {
+    height: 500px;
+  }
   .segunda-section,
   .terceira-section,
   .quarta-section,
@@ -197,11 +201,11 @@ body {
     width: 350px;
     height: 200px;
   }
-  .agendar {
-    width: 500px;
-  }
 }
-@media (min-width: 900px) {
+@media (min-width: 950px) {
+  .primeira-section {
+    height: 70vh;
+  }
   .info-banner {
     top: 60px;
   }
@@ -212,6 +216,9 @@ body {
     font-size: 2.5rem;
   }
   .img-magner img {
-    height: 500px;
+    height: 650px;
+  }
+  .agendar {
+    width: 500px;
   }
 }
